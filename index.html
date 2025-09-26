@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rinos Turismo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+ <nav class="hidden md:flex space-x-6 text-sm justify-center w-full">
+  <a href="#" class="text-lg px-3 py-2 rounded hover:bg-gray-300 hover:underline decoration-sky-500 ">Inicio</a>
+  <a href="#" class="text-lg px-3 py-2 rounded hover:underline decoration-sky-500 hover:text-blue-500">Quiénes somos</a>
+  <a href="#" class="text-lg px-3 py-2 rounded hover:bg-blue-200 hover:underline decoration-sky-500   ">Nuestros destinos</a>
+  <a href="#" class="text-lg px-3 py-2 rounded hover:bg-blue-200 hover:text-blue-800">Formas de pago</a>
+  <a href="#" class="text-lg px-3 py-2 rounded hover:bg-blue-200 hover:text-blue-800">Condiciones generales</a>
+  <a href="#" class="text-lg px-3 py-2 rounded hover:bg-blue-200 hover:text-blue-800">Contacto</a>
+</nav>
+
+    </div>
+  </header>
+
+  <!-- Hero / Banner principal -->
+  <section class="relative bg-cover bg-center h-96" style="background-image: url('ruta/de/la/imagen/banner.jpg');">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="container mx-auto px-4 h-full flex items-center justify-center text-center text-white relative">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold">Viví un verano diferente y viaja a san bernardor</h1>
+        <p class="mt-4 text-lg md:text-2xl">Dejate llevar por el encanto de San Bernardo y viví una escapada inolvidable.</p>
+        <a href="#destinos" class="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg text-lg">Click aquí para encontrar tu próximo destino</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ¿Por qué elegirnos? -->
+  <section class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-semibold mb-4">¿Por qué elegirnos?</h2>
+      <p class="mb-8 max-w-2xl mx-auto">Los mejores paquetes para tu destino · Operador mayorista 100% confiable · 15 años de experiencia en viajes · Transporte · El Rayo</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <h3 class="font-bold text-xl mb-2">Paquetes destacados</h3>
+          <p>Disfrutá de estos increíbles destinos con el mejor servicio</p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <h3 class="font-bold text-xl mb-2">Nuestros principales destinos</h3>
+          <p>Un increíble país para conocerlo de punta a punta</p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <h3 class="font-bold text-xl mb-2">Financiación con tarjeta</h3>
+          <p>Aboná los paquetes turísticos como sea más conveniente</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paquetes destacados / galerías -->
+  <section id="destinos" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-center mb-8">Paquetes destacados</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- repetir para cada destino -->
+        <div class="rounded-lg overflow-hidden shadow-lg">
+          <img src="img/sanBer4.png" alt="Destino 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Mar del Plata</h3>
+            <a href="#" class="text-blue-600 hover:underline">Ver destino</a>
+          </div>
+        </div>
+        <div class="rounded-lg overflow-hidden shadow-lg">
+          <img src="img/sanBer3.png" alt="Destino 2" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Villa de Merlo Abuelazo</h3>
+            <a href="#" class="text-blue-600 hover:underline">Ver destino</a>
+          </div>
+        </div>
+        <div class="rounded-lg overflow-hidden shadow-lg">
+          <img src="img/imgSanBer2.png" alt="Destino 3" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">San Nicolás</h3>
+            <a href="#" class="text-blue-600 hover:underline">Ver destino</a>
+          </div>
+        </div>
+        <div class="rounded-lg overflow-hidden shadow-lg">
+          <img src="img/imgSanBer.png" alt="Destino 4" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Otro destino</h3>
+            <a href="#" class="text-blue-600 hover:underline">Ver destino</a>
+          </div>
+        </div>
+        <!-- fin repetir -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Seguinos / Contacto / Footer -->
+  <footer class="bg-gray-800 text-gray-200 pt-12 pb-8">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Seguinos en nuestras redes</h4>
+          <div class="flex space-x-4">
+            <a href="#" class="hover:text-white">Facebook</a>
+            <a href="#" class="hover:text-white">Instagram</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Contactanos</h4>
+          <p>54 9 261 571 4373</p>
+          <p>mail@gmail</p>
+          <p>Las Heras ..., Mendoza, Argentina</p>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-sm text-gray-400">
+        © Rinos Turismo 2025. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
